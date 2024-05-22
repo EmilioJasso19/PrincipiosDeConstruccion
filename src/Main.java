@@ -9,7 +9,8 @@ public class Main {
 
         System.out.println("Enter the limit");
         int limit = input.nextInt();
+        int from = 1;
 
-        fizzBuzz.print(1,limit);
+        fizzBuzz.print(from,limit);
     }
 }
